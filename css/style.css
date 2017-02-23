@@ -8,8 +8,11 @@ body {
 	text-align: center;
 }
 
+/******* HEADER NAV CONTENT *********/
+
 header {
 	align-items: center;
+	background-color: black;
 	border-bottom: 1px solid seashell; 
 	display: flex;
 	height: 69px;
@@ -35,4 +38,28 @@ ul li {
 
 a {
 	color: seashell;
+}
+
+/******** MAIN CONTENT **********/
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 70px;
+}
+
+.landing {
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 700px;
+	width: 1200px;
+}
+
+.mission {
+	background-color: black;
+	width: 100%;
 }
