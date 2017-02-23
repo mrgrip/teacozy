@@ -1,0 +1,1 @@
+This is the Tea Cozy project assigned by Code Academy's Freelance Web Development program, intended to practice display and positioning.
