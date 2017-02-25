@@ -45,6 +45,7 @@ a {
 .main {
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 	justify-content: center;
 	padding-top: 70px;
 }
@@ -62,4 +63,90 @@ a {
 .mission {
 	background-color: black;
 	width: 100%;
+}
+
+.mission h2 {
+	margin-top: .5em;
+}
+
+.mission h4 {
+	margin-bottom: .5em;
+}
+
+/***** month section *****/
+
+.month {
+	width: 1000px;
+}
+
+.month h2 {
+	margin-top: 2em;
+	margin-bottom: .5em;
+}
+
+.month h4 {
+	margin-top: 10px;
+}
+
+.images {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.item {
+	padding: 10px;
+}
+
+.images img {
+	height: 200px;
+	width: 300px;
+}
+
+/***** locations section *****/
+
+.locations {
+	background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+	height: 570px;
+	width: 1200px;
+}
+
+.locations h2 {
+	padding-top: 50px;
+	margin-bottom: 15px;
+}
+
+.locales {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.spot {
+	background-color: black;
+	margin: 0 20px 0 20px;
+	opacity: 1;
+	width: 300px
+}
+
+.spot > p {
+	margin-top: 2em;
+}
+
+/* end of page */
+
+.contact {
+	height: 200px;
+}
+
+footer {
+	margin-left: 20px;
+	text-align: left;
+}
+
+footer h5 {
+	font-weight: normal;
 }
